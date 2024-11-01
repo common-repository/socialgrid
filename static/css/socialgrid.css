@@ -1,0 +1,156 @@
+ul#socialGrid {
+    margin: 0 0 0 -7px !important;
+}
+
+ul#socialGrid:after {
+    content: ".";
+    visibility: hidden;
+    height: 0;
+    display: block;
+    clear: both;
+}
+
+ul#socialGrid li {
+    list-style-type: none !important;
+    position: relative;
+    float: left;
+    margin: 0 0 7px 7px !important;
+    width: 32px !important;
+    height: 32px !important;
+    padding: 0 !important;
+    border: none !important;
+}
+
+ul#socialGrid.mini li {
+    width: 16px !important;
+    height: 16px !important;
+}
+
+/* fix for kubrick raquo's */
+ul#socialGrid li:before {
+    content: "" !important;
+}
+    
+ul#socialGrid li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-indent: -9999em;
+    padding: 0 !important;
+    margin: 0 !important;
+    outline: none !important;
+}
+
+ul#socialGrid.mini li a {
+    width: 16px;
+    height: 16px;
+    
+}
+
+ul#socialGrid li.delicious a { background-image: url(../img/icons/delicious_32.png); }
+ul#socialGrid li.deviantart a { background-image: url(../img/icons/deviantart_32.png); }
+ul#socialGrid li.digg a { background-image: url(../img/icons/digg_32.png); }
+ul#socialGrid li.facebook a { background-image: url(../img/icons/facebook_32.png); }
+ul#socialGrid li.flickr a { background-image: url(../img/icons/flickr_32.png); }
+ul#socialGrid li.lastfm a { background-image: url(../img/icons/lastfm_32.png); }
+ul#socialGrid li.linkedin a { background-image: url(../img/icons/linkedin_32.png); }
+ul#socialGrid li.myspace a { background-image: url(../img/icons/myspace_32.png); }
+ul#socialGrid li.rss a { background-image: url(../img/icons/rss_32.png); }
+ul#socialGrid li.stumbleupon a { background-image: url(../img/icons/stumbleupon_32.png); }
+ul#socialGrid li.tumblr a { background-image: url(../img/icons/tumblr_32.png); }
+ul#socialGrid li.technorati a { background-image: url(../img/icons/technorati_32.png); }
+ul#socialGrid li.twitter a { background-image: url(../img/icons/twitter_32.png); }
+ul#socialGrid li.vimeo a { background-image: url(../img/icons/vimeo_32.png); }
+ul#socialGrid li.youtube a { background-image: url(../img/icons/youtube_32.png); }
+ul#socialGrid li.cargo a { background-image: url(../img/icons/cargo_32.png); }
+ul#socialGrid li.forrst a { background-image: url(../img/icons/forrst_32.png); }
+ul#socialGrid li.dopplr a { background-image: url(../img/icons/dopplr_32.png); }
+ul#socialGrid li.dribbble a { background-image: url(../img/icons/dribbble_32.png); }
+ul#socialGrid li.picasa a { background-image: url(../img/icons/picasa_32.png); }
+ul#socialGrid li.google a { background-image: url(../img/icons/google_32.png); }
+ul#socialGrid li.ember a { background-image: url(../img/icons/ember_32.png); }
+ul#socialGrid li.qik a { background-image: url(../img/icons/qik_32.png); }
+ul#socialGrid li.readernaut a { background-image: url(../img/icons/readernaut_32.png); }
+ul#socialGrid li.reddit a { background-image: url(../img/icons/reddit_32.png); }
+ul#socialGrid li.posterous a { background-image: url(../img/icons/posterous_32.png); }
+ul#socialGrid li.virb a { background-image: url(../img/icons/virb_32.png); }
+ul#socialGrid li.viddler a { background-image: url(../img/icons/viddler_32.png); }
+
+ul#socialGrid.mini li.delicious a { background-image: url(../img/icons/delicious_16.png); }
+ul#socialGrid.mini li.deviantart a { background-image: url(../img/icons/deviantart_16.png); }
+ul#socialGrid.mini li.dribbble a { background-image: url(../img/icons/dribbble_16.png); }
+ul#socialGrid.mini li.digg a { background-image: url(../img/icons/digg_16.png); }
+ul#socialGrid.mini li.facebook a { background-image: url(../img/icons/facebook_16.png); }
+ul#socialGrid.mini li.flickr a { background-image: url(../img/icons/flickr_16.png); }
+ul#socialGrid.mini li.lastfm a { background-image: url(../img/icons/lastfm_16.png); }
+ul#socialGrid.mini li.linkedin a { background-image: url(../img/icons/linkedin_16.png); }
+ul#socialGrid.mini li.myspace a { background-image: url(../img/icons/myspace_16.png); }
+ul#socialGrid.mini li.rss a { background-image: url(../img/icons/rss_16.png); }
+ul#socialGrid.mini li.stumbleupon a { background-image: url(../img/icons/stumbleupon_16.png); }
+ul#socialGrid.mini li.tumblr a { background-image: url(../img/icons/tumblr_16.png); }
+ul#socialGrid.mini li.technorati a { background-image: url(../img/icons/technorati_16.png); }
+ul#socialGrid.mini li.twitter a { background-image: url(../img/icons/twitter_16.png); }
+ul#socialGrid.mini li.vimeo a { background-image: url(../img/icons/vimeo_16.png); }
+ul#socialGrid.mini li.youtube a { background-image: url(../img/icons/youtube_16.png); }
+ul#socialGrid.mini li.cargo a { background-image: url(../img/icons/cargo_16.png); }
+ul#socialGrid.mini li.forrst a { background-image: url(../img/icons/forrst_16.png); }
+ul#socialGrid.mini li.dopplr a { background-image: url(../img/icons/dopplr_16.png); }
+ul#socialGrid.mini li.friendfeed a { background-image: url(../img/icons/friendfeed_16.png); }
+ul#socialGrid.mini li.picasa a { background-image: url(../img/icons/picasa_16.png); }
+ul#socialGrid.mini li.google a { background-image: url(../img/icons/google_16.png); }
+ul#socialGrid.mini li.ember a { background-image: url(../img/icons/ember_16.png); }
+ul#socialGrid.mini li.qik a { background-image: url(../img/icons/qik_16.png); }
+ul#socialGrid.mini li.readernaut a { background-image: url(../img/icons/readernaut_16.png); }
+ul#socialGrid.mini li.reddit a { background-image: url(../img/icons/reddit_16.png); }
+ul#socialGrid.mini li.posterous a { background-image: url(../img/icons/posterous_16.png); }
+ul#socialGrid.mini li.virb a { background-image: url(../img/icons/virb_16.png); }
+ul#socialGrid.mini li.viddler a { background-image: url(../img/icons/viddler_16.png); }
+
+ul#socialGrid li div.tooltip {
+    position: absolute;
+    top: -25px;
+    left: -10px;
+    white-space: nowrap;
+    display: none;
+    z-index: 12000;
+}
+
+    ul#socialGrid.mini li div.tooltip {
+        top: -33px;
+    }
+
+    ul#socialGrid li div.tooltip:hover {
+        cursor: pointer !important;
+    }
+
+    ul#socialGrid li div.tooltip span.center {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 1.2em;
+        background: url(../img/tooltipCenter.png) top center no-repeat;
+        display: block;
+        padding: 0 10px;
+        line-height: 30px;
+        color: #FFF;
+        font-weight: bold;
+        height: 35px;
+        text-shadow: 0 1px 1px #000;
+    }
+    
+    ul#socialGrid li div.tooltip span.left,
+    ul#socialGrid li div.tooltip span.right {
+        width: 6px;
+        height: 33px;
+        display: block;
+        position: absolute;
+        top: 0;
+    }
+    
+    ul#socialGrid li div.tooltip span.left {
+        background: url(../img/tooltipLeft.png) top left no-repeat;
+        left: -6px;
+    }
+    
+    ul#socialGrid li div.tooltip span.right {
+        background: url(../img/tooltipRight.png) top right no-repeat;
+        right: -6px;
+    }

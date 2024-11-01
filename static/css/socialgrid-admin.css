@@ -1,0 +1,297 @@
+#socialgrid-admin {
+    background: #000 url(../img/socialgrid-footer.png) bottom left no-repeat;
+    width: 250px;
+    height: 350px;
+    position: relative;
+    float: left;
+    margin: 20px 20px 20px 0;
+}
+
+    #socialgrid-header {
+        height: 40px;
+        background: url(../img/socialgrid-header.png) top left no-repeat;
+    }
+    
+        #socialgrid-header h3 {
+            display: none;
+        }
+        
+        #socialgrid-header a {
+            position: absolute;
+            right: 0;
+        }
+        
+        a.socialgrid-button {
+            float: left;
+            color: #EEE;
+            font-size: 11px;
+            font-weight: bold;
+            background: url(../img/header-button.png) top right no-repeat;
+            margin: 10px 15px 0 0;
+            text-decoration: none;
+            text-shadow: 0 1px 0 #000;
+        }
+        
+            a.socialgrid-button span {
+                display: block;
+                height: 23px;
+                line-height: 22px;
+                background: url(../img/header-button.png) top left no-repeat;
+                padding: 0 0 0 15px;
+                margin-right: 15px;
+            }
+        
+        a.socialgrid-button:hover {
+            color: #FFF;
+            cursor: pointer;
+        }
+        
+            a.socialgrid-button:focus {
+                color: #777;
+                background-position: 100% -24px;
+            }
+            
+            a.socialgrid-button:focus span {
+                background-position: 0 -24px;
+            }
+        
+        a.socialgrid-button.green span,
+        a.socialgrid-button.red span {
+            height: 22px;
+            line-height: 22px;
+        }
+        
+        a.socialgrid-button.green {
+            background: url(../img/save-button.png) top right no-repeat;
+        }
+        
+            a.socialgrid-button.green span {
+                background: url(../img/save-button.png) top left no-repeat;
+            }
+        
+        a.socialgrid-button.red {
+            background: url(../img/cancel-button.png) top right no-repeat;
+        }
+
+            a.socialgrid-button.red span {
+                background: url(../img/cancel-button.png) top left no-repeat;
+            }
+        
+        a.socialgrid-button.red:focus,
+        a.socialgrid-button.green:focus {
+            background-position: bottom right !important;
+            color: #FFF !important;
+        }
+        
+            a.socialgrid-button.red:focus span,
+            a.socialgrid-button.green:focus span {
+                background-position: bottom left !important;
+            }
+        
+    div.socialgrid-pane {
+        position: absolute;
+        width: 250px;
+        height: 310px;
+        font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    }
+    
+        div.socialgrid-pane h3 {
+            text-align: center;
+            color: #EEE;
+            margin-bottom: 0;
+        }
+        
+        div.socialgrid-pane div.socialgrid-edit-header {
+            margin-top: 1px;
+            background-color: #202020;
+            background-repeat: no-repeat;
+            background-position: 10px center;
+            padding: 10px 10px 10px 50px;
+            color: #FFF;
+        }
+        
+        div.socialgrid-edit-header.delicious { background-image: url(../img/icons/delicious_32.png); }
+        div.socialgrid-edit-header.deviantart { background-image: url(../img/icons/deviantart_32.png); }
+        div.socialgrid-edit-header.digg { background-image: url(../img/icons/digg_32.png); }
+        div.socialgrid-edit-header.facebook { background-image: url(../img/icons/facebook_32.png); }
+        div.socialgrid-edit-header.flickr { background-image: url(../img/icons/flickr_32.png); }
+        div.socialgrid-edit-header.lastfm { background-image: url(../img/icons/lastfm_32.png); }
+        div.socialgrid-edit-header.linkedin { background-image: url(../img/icons/linkedin_32.png); }
+        div.socialgrid-edit-header.myspace { background-image: url(../img/icons/myspace_32.png); }
+        div.socialgrid-edit-header.rss { background-image: url(../img/icons/rss_32.png); }
+        div.socialgrid-edit-header.stumbleupon { background-image: url(../img/icons/stumbleupon_32.png); }
+        div.socialgrid-edit-header.tumblr { background-image: url(../img/icons/tumblr_32.png); }
+        div.socialgrid-edit-header.twitter { background-image: url(../img/icons/twitter_32.png); }
+        div.socialgrid-edit-header.vimeo { background-image: url(../img/icons/vimeo_32.png); }
+        div.socialgrid-edit-header.youtube { background-image: url(../img/icons/youtube_32.png); }
+        div.socialgrid-edit-header.technorati { background-image: url(../img/icons/technorati_32.png); }
+        div.socialgrid-edit-header.cargo { background-image: url(../img/icons/cargo_32.png); }
+        div.socialgrid-edit-header.forrst { background-image: url(../img/icons/forrst_32.png); }
+        
+        div.socialgrid-edit-header.dopplr { background-image: url(../img/icons/dopplr_32.png); }
+        div.socialgrid-edit-header.dribbble { background-image: url(../img/icons/dribbble_32.png); }
+        div.socialgrid-edit-header.picasa { background-image: url(../img/icons/picasa_32.png); }
+        div.socialgrid-edit-header.google { background-image: url(../img/icons/google_32.png); }
+        div.socialgrid-edit-header.ember { background-image: url(../img/icons/ember_32.png); }
+        div.socialgrid-edit-header.qik { background-image: url(../img/icons/qik_32.png); }
+        div.socialgrid-edit-header.readernaut { background-image: url(../img/icons/readernaut_32.png); }
+        div.socialgrid-edit-header.reddit { background-image: url(../img/icons/reddit_32.png); }
+        div.socialgrid-edit-header.posterous { background-image: url(../img/icons/posterous_32.png); }
+        div.socialgrid-edit-header.virb { background-image: url(../img/icons/virb_32.png); }
+        div.socialgrid-edit-header.viddler { background-image: url(../img/icons/viddler_32.png); }
+        
+        
+        div.socialgrid-edit-header span.socialgrid-service-name,
+        div.socialgrid-edit-header span.socialgrid-service-meta {
+            display: block;
+        }
+        
+            div.socialgrid-edit-header span.socialgrid-service-name {
+                font-size: 18px;
+                font-weight: bold;
+            }
+            
+            div.socialgrid-edit-header span.socialgrid-service-meta {
+                font-size: 12px;
+                color: #CCC;
+            }
+            
+            div.socialgrid-edit-header span.socialgrid-username-replace {
+                color: #FFF;
+                font-weight: bold;
+            }
+        
+        div.socialgrid-edit-content {
+            padding: 0 10px 10px 55px;
+            color: #FFF;
+        }
+        
+            div.socialgrid-edit-content p {
+                font-size: 11px;
+            }
+
+        div.socialgrid-settings-pane {
+            width: 220px;
+            padding: 0 15px;
+            color: #FFF;
+        }
+        
+            div.socialgrid-settings-pane p,
+            div.socialgrid-settings-pane label {
+                font-size: 11px;
+            }
+            
+            div.socialgrid-settings-pane label {
+                font-weight: bold;
+                margin-left: 5px;
+            }
+            
+            div.socialgrid-settings-pane .field {
+                padding: 3px 0 7px 0;
+            }
+            
+                div.socialgrid-settings-pane .field p {
+                    margin-bottom: 5px;
+                }
+        
+        div.socialgrid-footer-container {
+            clear: both;
+            float: left;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        ul.socialgrid-footer {
+            padding: 0;
+            margin: 0 auto;
+            float: left;
+            position: relative;
+            left: 50%;
+            list-style-type: none;
+        }
+        
+        ul.socialgrid-footer li {
+            float: left;
+            position: relative;
+            right: 50%;
+        }
+        
+        ul.socialgrid-footer a {
+            width: auto;
+            display: block;
+        }
+    
+    #socialgrid-drop-delete {
+        position: absolute;
+        display: block;
+        bottom: 0;
+        left: 90px;
+        width: 70px;
+        height: 37px;
+        background: url(../img/trash-button.png) top left no-repeat;
+        display: none;
+        border: 5px solid black;
+        border-width: 5px 5px 0 5px;
+    }
+    
+        #socialgrid-drop-delete.acceptable {
+            background-position: bottom left;
+        }
+    
+    ul.socialgrid-items {
+        margin-left: -10px;
+        padding: 15px 25px 40px 25px;
+    }
+    
+    ul.socialgrid-items:after {
+        content: ".";
+        visibility: hidden;
+        height: 0;
+        display: block;
+        clear: both;
+    }
+        
+    ul.socialgrid-items li.socialgrid-item,
+    ul.socialgrid-items li.socialgrid-item-add {
+        width: 32px;
+        height: 32px;
+        margin: 0 0 10px 10px;
+        display: block;
+        text-indent: -9999em;
+        float: left;
+        z-index: 3000;
+    }
+    
+    ul.socialgrid-items li.cargo { background-image: url(../img/icons/cargo_32.png); }
+    ul.socialgrid-items li.forrst { background-image: url(../img/icons/forrst_32.png); }
+    ul.socialgrid-items li.dopplr { background-image: url(../img/icons/dopplr_32.png); }
+    ul.socialgrid-items li.dribbble { background-image: url(../img/icons/dribbble_32.png); }
+    ul.socialgrid-items li.picasa { background-image: url(../img/icons/picasa_32.png); }
+    ul.socialgrid-items li.google { background-image: url(../img/icons/google_32.png); }
+    ul.socialgrid-items li.ember { background-image: url(../img/icons/ember_32.png); }
+    ul.socialgrid-items li.qik { background-image: url(../img/icons/qik_32.png); }
+    ul.socialgrid-items li.readernaut { background-image: url(../img/icons/readernaut_32.png); }
+    ul.socialgrid-items li.reddit { background-image: url(../img/icons/reddit_32.png); }
+    ul.socialgrid-items li.posterous { background-image: url(../img/icons/posterous_32.png); }
+    ul.socialgrid-items li.virb { background-image: url(../img/icons/virb_32.png); }
+    ul.socialgrid-items li.viddler { background-image: url(../img/icons/viddler_32.png); }
+    ul.socialgrid-items li.technorati { background-image: url(../img/icons/technorati_32.png); }
+    
+    ul.socialgrid-items li.delicious { background-image: url(../img/icons/delicious_32.png); }
+    ul.socialgrid-items li.deviantart { background-image: url(../img/icons/deviantart_32.png); }
+    ul.socialgrid-items li.digg { background-image: url(../img/icons/digg_32.png); }
+    ul.socialgrid-items li.facebook { background-image: url(../img/icons/facebook_32.png); }
+    ul.socialgrid-items li.flickr { background-image: url(../img/icons/flickr_32.png); }
+    ul.socialgrid-items li.lastfm { background-image: url(../img/icons/lastfm_32.png); }
+    ul.socialgrid-items li.linkedin { background-image: url(../img/icons/linkedin_32.png); }
+    ul.socialgrid-items li.myspace { background-image: url(../img/icons/myspace_32.png); }
+    ul.socialgrid-items li.rss { background-image: url(../img/icons/rss_32.png); }
+    ul.socialgrid-items li.stumbleupon { background-image: url(../img/icons/stumbleupon_32.png); }
+    ul.socialgrid-items li.tumblr { background-image: url(../img/icons/tumblr_32.png); }
+    ul.socialgrid-items li.twitpic { background-image: url(../img/icons/twitpic_32.png); }
+    ul.socialgrid-items li.twitter { background-image: url(../img/icons/twitter_32.png); }
+    ul.socialgrid-items li.vimeo { background-image: url(../img/icons/vimeo_32.png); }
+    ul.socialgrid-items li.youtube { background-image: url(../img/icons/youtube_32.png); }
+
+    ul.socialgrid-items li.socialgrid-item-add { background-image: url(../img/add_service_icon.png); }
+    ul.socialgrid-items li.socialgrid-item-add:hover { background-position: -32px 0; cursor: pointer; }
